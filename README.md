@@ -9,9 +9,9 @@ A Mach-O binary codesign remover.
 Description
 -----------
 
-The source code served as an example of LC_CODE_SIGNATURE can be used, 
-it is, by no means, a commercial grade product. It might contain errors 
-or flaws, and it was created for demonstration purpose only.
+The source code served as an example of how LC_CODE_SIGNATURE can be 
+used, it is, by no means, a commercial grade product. It might contain 
+errors or flaws, and it was created for demonstration purpose only.
 
 The following architectures are supported by codeunsign:
 
