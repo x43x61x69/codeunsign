@@ -5,6 +5,8 @@ A Mach-O binary codesign remover.
 
 [Project Site](https://github.com/x43x61x69/codeunsign)
 
+![Screenshot](https://dl.dropboxusercontent.com/s/iogvl9hhmbyl6uk/codeunsign.png)
+
 
 Description
 -----------
