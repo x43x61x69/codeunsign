@@ -2,7 +2,7 @@
 //  codeunsign.c
 //  codeunsign
 //
-//  Copyright (c) 2014 Cai, Zhi-Wei. All rights reserved.
+//  Copyright (c) 2014 Zhi-Wei Cai. All rights reserved.
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@
 // To compile: clang codeunsign.c -O2 -o codeunsign
 //
 
-#define VERSION "0.1"
+#define VERSION "0.1.1"
 
 #include <fcntl.h>
 #include <mach-o/fat.h>
@@ -41,15 +41,15 @@ int main(int argc, char *argv[]) {
            "     _/_/_/                  _/                         \n\t"
            "  _/          _/_/      _/_/_/    _/_/    Copyright     \n\t"
            " _/        _/    _/  _/    _/  _/_/_/_/    © 2014       \n\t"
-           "_/        _/    _/  _/    _/  _/         Cai, Zhi-Wei   \n\t"
-           " _/_/_/    _/_/      _/_/_/    _/_/_/       v %s       \n\t"
+           "_/        _/    _/  _/    _/  _/         Zhi-Wei Cai    \n\t"
+           " _/_/_/    _/_/      _/_/_/    _/_/_/       v %s        \n\t"
            "   _/    _/                      _/                     \n\t"
            "  _/    _/  _/_/_/      _/_/_/        _/_/_/  _/_/_/    \n\t"
            " _/    _/  _/    _/  _/_/      _/  _/    _/  _/    _/   \n\t"
            "_/    _/  _/    _/      _/_/  _/  _/    _/  _/    _/    \n\t"
            " _/_/    _/    _/  _/_/_/    _/    _/_/_/  _/    _/     \n\t"
            "                                      _/                \n\t"
-           "    - http://reversi.ng/ -        _/_/  \n\n\n", VERSION);
+           "    - http://vox.vg/ -            _/_/  \n\n\n", VERSION);
     
     if (argc < 2) {
         
